@@ -157,7 +157,7 @@
                         </div>
                     </div>
 
-                    <div class="overflow-x-auto relative shadow-md sm:rounded-lg">
+                    <div class="mx-auto shadow-md sm:rounded-lg">
                         <table class="w-full" id="phonebook-table">
                             <thead>
                                 <tr>
@@ -222,7 +222,7 @@
             {
                 data: null,
                 render: function(data, type, row) {
-                    return data.photo!='image-not.jpg'?`<img src=${imgUrl(data.photo)}>`:`<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b1ceee5-9458-4434-80bc-fc5d83a2ea88/de1noau-2dbb58f5-1c72-4b2b-b2a4-6849226fef79.png/v1/fill/w_555,h_589,strp/image_not_yet_uploaded_by_unitedworldmedia_de1noau-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTg5IiwicGF0aCI6IlwvZlwvNGIxY2VlZTUtOTQ1OC00NDM0LTgwYmMtZmM1ZDgzYTJlYTg4XC9kZTFub2F1LTJkYmI1OGY1LTFjNzItNGIyYi1iMmE0LTY4NDkyMjZmZWY3OS5wbmciLCJ3aWR0aCI6Ijw9NTU1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.kwNEqDxyj2HBSrPgSatLV5Yafd5CVVfkWmCP6O_z3dY">`;
+                    return data.photo!='image-not.jpg'?`<img style="width:60px" src=${imgUrl(data.photo)}>`:`<img  style="width:60px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4b1ceee5-9458-4434-80bc-fc5d83a2ea88/de1noau-2dbb58f5-1c72-4b2b-b2a4-6849226fef79.png/v1/fill/w_555,h_589,strp/image_not_yet_uploaded_by_unitedworldmedia_de1noau-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTg5IiwicGF0aCI6IlwvZlwvNGIxY2VlZTUtOTQ1OC00NDM0LTgwYmMtZmM1ZDgzYTJlYTg4XC9kZTFub2F1LTJkYmI1OGY1LTFjNzItNGIyYi1iMmE0LTY4NDkyMjZmZWY3OS5wbmciLCJ3aWR0aCI6Ijw9NTU1In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.kwNEqDxyj2HBSrPgSatLV5Yafd5CVVfkWmCP6O_z3dY">`;
                 }
             },
             {
